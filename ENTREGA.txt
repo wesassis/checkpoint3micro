@@ -1,13 +1,11 @@
 ENTREGA CHECKPOINT 3 - SOA MICROSERVICES
 ==========================================
 
-URL do repositório no GitHub: https://github.com/SEU_USUARIO/checkpoint3
-URL do repositório no Docker Hub: https://hub.docker.com/r/SEU_USUARIO/checkpoint3
+URL do repositório no GitHub: https://github.com/wesassis/checkpoint3micro
+URL do repositório no Docker Hub: https://hub.docker.com/r/wesassis/checkpoint3micro
 
 Membros do grupo:
-- Seu Nome
-- Nome do Colega 1  
-- Nome do Colega 2
+- Wesley Assis
 
 INSTRUÇÕES PARA CONFIGURAÇÃO:
 =============================

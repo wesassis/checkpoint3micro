@@ -41,7 +41,7 @@ jobs:
       id: meta
       uses: docker/metadata-action@v5
       with:
-        images: ${{ secrets.DOCKER_USERNAME }}/checkpoint3
+        images: ${{ secrets.DOCKER_USERNAME }}/checkpoint3micro
         tags: |
           type=ref,event=branch
           type=sha,prefix={{branch}}-

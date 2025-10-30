@@ -44,8 +44,8 @@ Uma API REST completa para gerenciamento de produtos desenvolvida com Spring Boo
 
 ### 1. Clonando o repositório
 ```bash
-git clone https://github.com/SEU_USUARIO/checkpoint3.git
-cd checkpoint3
+git clone https://github.com/wesassis/checkpoint3micro.git
+cd checkpoint3micro
 ```
 
 ### 2. Executando com Maven
@@ -71,7 +71,7 @@ A aplicação estará disponível em: `http://localhost:8080`
 
 ### 1. Executando a partir da imagem do Docker Hub
 ```bash
-docker run -p 8080:8080 SEU_USUARIO/checkpoint3:latest
+docker run -p 8080:8080 wesassis/checkpoint3micro:latest
 ```
 
 ### 2. Executando com docker-compose
@@ -237,12 +237,10 @@ Este projeto foi desenvolvido para fins acadêmicos como parte do Checkpoint 3 d
 
 ## 👥 Desenvolvido por
 
-- [Seu Nome]
-- [Nome do Colega 1]
-- [Nome do Colega 2]
+- Wesley Assis
 
 ---
 
 **Links:**
-- GitHub: https://github.com/SEU_USUARIO/checkpoint3
-- Docker Hub: https://hub.docker.com/r/SEU_USUARIO/checkpoint3
+- GitHub: https://github.com/wesassis/checkpoint3micro
+- Docker Hub: https://hub.docker.com/r/wesassis/checkpoint3micro
