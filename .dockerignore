@@ -1,0 +1,13 @@
+target/
+!target/products-api-1.0.0.jar
+.git
+.gitignore
+README.md
+Dockerfile
+docker-compose.yml
+*.md
+src/
+pom.xml
+.mvn/
+mvnw
+mvnw.cmd

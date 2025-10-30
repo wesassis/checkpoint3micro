@@ -1,0 +1,67 @@
+ENTREGA CHECKPOINT 3 - SOA MICROSERVICES
+==========================================
+
+URL do repositório no GitHub: https://github.com/SEU_USUARIO/checkpoint3
+URL do repositório no Docker Hub: https://hub.docker.com/r/SEU_USUARIO/checkpoint3
+
+Membros do grupo:
+- Seu Nome
+- Nome do Colega 1  
+- Nome do Colega 2
+
+INSTRUÇÕES PARA CONFIGURAÇÃO:
+=============================
+
+1. GITHUB SECRETS NECESSÁRIOS:
+   - DOCKER_USERNAME: seu_usuario_dockerhub
+   - DOCKER_PASSWORD: sua_senha_dockerhub
+
+2. REPOSITORIES:
+   - GitHub e Docker Hub devem ter o mesmo nome: "checkpoint3"
+
+3. ACTIONS IMPLEMENTADAS:
+
+   ✅ CI (Checkpoint 2):
+   - Execução de testes unitários
+   - Empacotamento com Maven  
+   - Trigger: push em develop, feature/*, hotfix/*
+
+   ✅ CD Integration Tests (Checkpoint 3 - Item 1):
+   - Testes de integração CRUD completo
+   - Trigger: push em develop, main
+   - 8 pontos
+
+   ✅ CD Docker Hub (Checkpoint 3 - Item 2):
+   - Upload da imagem Docker no Docker Hub
+   - Trigger: push em develop, main
+   - 2 pontos
+
+   ✅ Release Generation (Checkpoint 2):
+   - Geração de documentação e release
+   - Trigger: push em main
+
+4. FUNCIONALIDADES IMPLEMENTADAS:
+   - ✅ CRUD completo (ProductController)
+   - ✅ Métodos GET, POST, PUT, DELETE
+   - ✅ Testes de integração completos
+   - ✅ Dockerfile e docker-compose.yml
+   - ✅ Documentação Swagger
+   - ✅ GitHub Actions CI/CD
+
+5. EXECUÇÃO:
+   
+   Local:
+   mvn spring-boot:run
+   
+   Docker Hub:
+   docker run -p 8080:8080 SEU_USUARIO/checkpoint3:latest
+   
+   Docker Compose:
+   docker-compose up -d
+
+6. SWAGGER:
+   http://localhost:8080/swagger-ui.html
+
+TOTAL DE PONTOS: 10/10
+- Item 1 (8 pontos): ✅ Action CD com testes de integração CRUD
+- Item 2 (2 pontos): ✅ Action CD com upload Docker Hub
